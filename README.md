@@ -34,7 +34,6 @@ Além disso, estudo Inteligência Artificial com o objetivo de desenvolver robô
 
 <ul>
   <li><strong>Clarify</strong> — SaaS de gestão financeira colaborativa com IA (portfólio/documentação pública)</li>
-  <li><strong>Neectify</strong> — Plataforma com controle de assinaturas, permissões e integração com Mercado Pago</li>
   <li><strong>Sistemas de vistoria</strong> — App desktop com SQLite + PyQt5 para imobiliárias</li>
 </ul>
 
@@ -58,9 +57,8 @@ Além disso, estudo Inteligência Artificial com o objetivo de desenvolver robô
 <p>Você pode falar comigo por:</p>
 
 <ul>
-  <li><strong>E-mail:</strong> <a href="mailto:cadueduardo.dev@gmail.com">cadueduardo.dev@gmail.com</a></li>
-  <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/cadueduardo" target="_blank">linkedin.com/in/cadueduardo</a></li>
-  <li><strong>Site/Portfólio:</strong> <a href="https://neectify.com" target="_blank">neectify.com</a></li>
+  <li><strong>E-mail:</strong> <a href="mailto:contato.carlosedu2367@gmail.com">contato.carlosedu2367@gmail.com</a></li>
+  <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/carloseduardo2367" target="_blank">https://www.linkedin.com/in/carloseduardo2367</a></li>
 </ul>
 
 <hr>
