@@ -62,5 +62,3 @@ Trabalho atualmente como Assistente Administrativo na Arcaika Engenharia, onde t
 <div align="center">
 <p><strong>Obrigado por visitar meu perfil!</strong></p>
 </div>
-
-<div align="center"> <img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dcarlos-edu2367%26show_icons%3Dtrue%26theme%3Dradical" alt="Estatísticas do Carlos" /> </div>
