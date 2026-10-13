@@ -25,15 +25,6 @@ Trabalho atualmente como Assistente Administrativo na Arcaika Engenharia, onde t
 
 <hr>
 
-<h2>Projetos em Destaque</h2>
-
-<ul>
-<li><strong>Marketfy</strong> — SaaS para Gestão de Mercados (Offline-First). Plataforma comercial que permite a operação sem conexão à internet e posterior sincronização na nuvem. Desenvolvido com FastAPI e React. <a href="https://marketfy.neectify.com" target="_blank">Acessar projeto</a></li>
-<li><strong>Engentoria</strong> — Sistema B2B completo de Gestão de Vistorias Imobiliárias. Atualmente em produção e utilizado por múltiplas empresas em Goiânia. Inclui gestão de clientes, agendamentos inteligentes, geração automática de laudos e chat integrado. Desenvolvido com FastAPI e JavaScript Vanilla.</li>
-</ul>
-
-<hr>
-
 <h2>O que estou estudando</h2>
 
 <ul>
