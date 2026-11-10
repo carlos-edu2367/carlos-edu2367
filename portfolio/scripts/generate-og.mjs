@@ -92,7 +92,7 @@ const portraitOverlaySvg = `<svg width="310" height="466" viewBox="0 0 310 466" 
       <stop offset="100%" stop-color="#07040a" stop-opacity="0.92"/>
     </linearGradient>
   </defs>
-  <rect width="310" height="466" rx="12" fill="#9f1239" fill-opacity="0.26"/>
+  <rect width="310" height="466" rx="12" fill="#9f1239" fill-opacity="0.08"/>
   <rect width="310" height="466" rx="12" fill="url(#fadeBottom)"/>
   <text x="18" y="426" fill="#ff4d6d" font-family="Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2">OP // CE-01 · 3D PORTFOLIO</text>
   <text x="18" y="446" fill="#f5ece9" font-family="Consolas, monospace" font-size="12" font-weight="700">SYS.CORE // ONLINE</text>
@@ -101,8 +101,6 @@ const portraitOverlaySvg = `<svg width="310" height="466" viewBox="0 0 310 466" 
 async function main() {
   const portraitThumb = await sharp(portraitPath)
     .resize(310, 466, { fit: 'cover', position: 'top' })
-    .grayscale()
-    .modulate({ brightness: 0.96 })
     .composite([{ input: Buffer.from(portraitOverlaySvg), top: 0, left: 0 }])
     .png()
     .toBuffer();

@@ -136,7 +136,7 @@ export function OperatorPortraitCard({
                 height={1200}
                 decoding="async"
                 fetchPriority="high"
-                className="h-full w-full object-cover object-top contrast-125 brightness-95 grayscale-[72%] transition-transform duration-500 group-hover:scale-[1.03]"
+                className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.03]"
               />
             </picture>
 
@@ -169,17 +169,17 @@ export function OperatorPortraitCard({
               </>
             ) : null}
 
-            {/* Crimson Duotone + Rim Lighting + Scanlines */}
+            {/* Crimson Rim Lighting + Scanlines */}
             <div
               aria-hidden="true"
-              className="pointer-events-none absolute inset-0 bg-gradient-to-tr from-blood/80 via-crimson/35 to-primary/25 mix-blend-multiply"
+              className="pointer-events-none absolute inset-0 bg-gradient-to-tr from-blood/35 via-transparent to-primary/15 mix-blend-multiply"
             />
             <div
               aria-hidden="true"
               className="pointer-events-none absolute inset-0 mix-blend-screen"
               style={{
                 background:
-                  'radial-gradient(circle at 82% 18%, rgba(255,31,61,0.48), transparent 52%), radial-gradient(circle at 15% 65%, rgba(159,18,57,0.35), transparent 55%)',
+                  'radial-gradient(circle at 82% 18%, rgba(255,31,61,0.28), transparent 52%), radial-gradient(circle at 15% 65%, rgba(159,18,57,0.2), transparent 55%)',
               }}
             />
             <div aria-hidden="true" className="bg-scanlines pointer-events-none absolute inset-0" />

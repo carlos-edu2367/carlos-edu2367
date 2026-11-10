@@ -1,9 +1,5 @@
 /**
  * Central profile configuration & single source of truth for personal assets and links.
- *
- * Portrait stock placeholder credit (swap files in `public/images/` to update across the entire app):
- * - Source URL: https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1200&q=85
- * - Credit: Photo by Albert Dera on Unsplash (https://unsplash.com/photos/ILip77SbmOE) — Unsplash License (royalty-free)
  */
 
 const baseUrl = import.meta.env.BASE_URL || '/';
