@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" width="1200" height="390" role="img" aria-labelledby="heroTitleLPt heroDescLPt">
+  <title id="heroTitleLPt">Carlos Eduardo da Silva — Engenheiro de Software Full-Stack</title>
+  <desc id="heroDescLPt">Engenheiro de Software Full-Stack focado em Backend, SaaS e Sistemas de Agentes de IA em Goiania, Brasil.</desc>
+  <defs>
+    <style><![CDATA[
+      .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      @keyframes pulseRing {
+        0%, 100% { transform: scale(1); opacity: 0.8; }
+        50% { transform: scale(1.06); opacity: 1; }
+      }
+      @keyframes spinSlow {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes spinReverse {
+        from { transform: rotate(360deg); }
+        to { transform: rotate(0deg); }
+      }
+      .ring-orbit-1 { transform-origin: 965px 190px; animation: spinSlow 26s linear infinite; }
+      .ring-orbit-2 { transform-origin: 965px 190px; animation: spinReverse 18s linear infinite; }
+      .core-pulse { transform-origin: 965px 190px; animation: pulseRing 3.6s ease-in-out infinite; }
+    ]]></style>
+
+    <linearGradient id="bgGradL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffbfb"/>
+      <stop offset="55%" stop-color="#fff1f2"/>
+      <stop offset="100%" stop-color="#ffe4e6"/>
+    </linearGradient>
+
+    <radialGradient id="crimsonAuraL" cx="80%" cy="48%" r="48%">
+      <stop offset="0%" stop-color="#ff1f3d" stop-opacity="0.18"/>
+      <stop offset="55%" stop-color="#e11d48" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#fff1f2" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="borderGradL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e11d48" stop-opacity="0.75"/>
+      <stop offset="50%" stop-color="#fda4af" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#be123c" stop-opacity="0.85"/>
+    </linearGradient>
+
+    <linearGradient id="monolithGradL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff1f3d"/>
+      <stop offset="55%" stop-color="#e11d48"/>
+      <stop offset="100%" stop-color="#881337"/>
+    </linearGradient>
+
+    <pattern id="hudGridL" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#be123c" stroke-width="0.6" stroke-opacity="0.08"/>
+    </pattern>
+
+    <clipPath id="cardClipL">
+      <rect x="6" y="6" width="1188" height="378" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardClipL)">
+    <rect x="6" y="6" width="1188" height="378" rx="20" fill="url(#bgGradL)"/>
+    <rect x="6" y="6" width="1188" height="378" fill="url(#hudGridL)"/>
+    <rect x="6" y="6" width="1188" height="378" fill="url(#crimsonAuraL)"/>
+
+    <text x="48" y="42" class="mono" font-size="11" fill="#9f1239" letter-spacing="2.2" font-weight="600">SYS.PERFIL // OPERADOR_ID: CE-2367</text>
+    <text x="1152" y="42" text-anchor="end" class="mono" font-size="11" fill="#9f1239" letter-spacing="1.8" font-weight="600">LOC: GOIÂNIA, BR [UTC-3] · PT-BR / EN B2</text>
+    <line x1="48" y1="54" x2="1152" y2="54" stroke="#e11d48" stroke-opacity="0.25" stroke-width="1"/>
+
+    <rect x="48" y="74" width="356" height="30" rx="15" fill="#ffe4e6" stroke="#e11d48" stroke-opacity="0.7" stroke-width="1.2"/>
+    <circle cx="68" cy="89" r="4.5" fill="#e11d48">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="83" y="93.5" class="mono" font-size="11.5" font-weight="700" fill="#881337" letter-spacing="1.2">DISPONÍVEL PARA FREELANCE · REMOTO</text>
+
+    <text x="46" y="168" class="sans" font-size="58" font-weight="800" fill="#16060b" letter-spacing="-1.2">CARLOS EDUARDO</text>
+    <rect x="572" y="132" width="116" height="28" rx="6" fill="#ffe4e6" stroke="#e11d48" stroke-width="1.2"/>
+    <text x="630" y="150.5" text-anchor="middle" class="mono" font-size="13" font-weight="700" fill="#be123c" letter-spacing="2">DA SILVA</text>
+
+    <text x="48" y="210" class="sans" font-size="20.5" font-weight="700" fill="#1f0810" letter-spacing="0.1">Engenheiro de Software Full-Stack</text>
+    <text x="392" y="210" class="sans" font-size="20.5" font-weight="700" fill="#e11d48" letter-spacing="0.1">· Backend, SaaS &amp; Agentes de IA</text>
+
+    <text x="48" y="248" class="sans" font-size="14.5" fill="#4a2230" letter-spacing="0.2">Projetando plataformas SaaS multi-tenant, motores de cobrança resilientes, PDV offline-first</text>
+    <text x="48" y="270" class="sans" font-size="14.5" fill="#4a2230" letter-spacing="0.2">e workspaces desktop local-first de múltiplos agentes com Clean Architecture &amp; tipagem estrita.</text>
+
+    <g transform="translate(48, 302)">
+      <rect x="0" y="0" width="142" height="26" rx="5" fill="#ffffff" stroke="#fda4af" stroke-width="1.2"/>
+      <text x="71" y="17" text-anchor="middle" class="mono" font-size="10.5" font-weight="600" fill="#9f1239" letter-spacing="0.8">CLEAN ARCH / DDD</text>
+
+      <rect x="152" y="0" width="150" height="26" rx="5" fill="#ffffff" stroke="#fda4af" stroke-width="1.2"/>
+      <text x="227" y="17" text-anchor="middle" class="mono" font-size="10.5" font-weight="600" fill="#9f1239" letter-spacing="0.8">FASTAPI &amp; ASYNC PY</text>
+
+      <rect x="312" y="0" width="156" height="26" rx="5" fill="#ffffff" stroke="#fda4af" stroke-width="1.2"/>
+      <text x="390" y="17" text-anchor="middle" class="mono" font-size="10.5" font-weight="600" fill="#9f1239" letter-spacing="0.8">REACT 19 &amp; ELECTRON</text>
+
+      <rect x="478" y="0" width="154" height="26" rx="5" fill="#ffffff" stroke="#fda4af" stroke-width="1.2"/>
+      <text x="555" y="17" text-anchor="middle" class="mono" font-size="10.5" font-weight="600" fill="#9f1239" letter-spacing="0.8">AGENTES IA &amp; MCP</text>
+
+      <rect x="642" y="0" width="138" height="26" rx="5" fill="#ffffff" stroke="#fda4af" stroke-width="1.2"/>
+      <text x="711" y="17" text-anchor="middle" class="mono" font-size="10.5" font-weight="600" fill="#9f1239" letter-spacing="0.8">STRIPE &amp; PIX SSE</text>
+    </g>
+
+    <g>
+      <g class="ring-orbit-1">
+        <circle cx="965" cy="190" r="112" fill="none" stroke="#e11d48" stroke-width="1.3" stroke-dasharray="14 8 4 8" opacity="0.55"/>
+        <circle cx="965" cy="78" r="4" fill="#e11d48"/>
+      </g>
+      <g class="ring-orbit-2">
+        <circle cx="965" cy="190" r="84" fill="none" stroke="#be123c" stroke-width="1.4" stroke-dasharray="42 18" opacity="0.65"/>
+      </g>
+      <g class="core-pulse">
+        <polygon points="965,122 1022,190 965,258 908,190" fill="url(#monolithGradL)" stroke="#881337" stroke-width="1.5"/>
+        <polygon points="965,142 1004,190 965,238 926,190" fill="none" stroke="#fff1f2" stroke-width="1.2" opacity="0.8"/>
+        <circle cx="965" cy="190" r="8" fill="#ffffff"/>
+      </g>
+    </g>
+
+    <path d="M 22 36 L 22 20 L 38 20" fill="none" stroke="#e11d48" stroke-width="2"/>
+    <path d="M 1178 36 L 1178 20 L 1162 20" fill="none" stroke="#e11d48" stroke-width="2"/>
+    <path d="M 22 354 L 22 370 L 38 370" fill="none" stroke="#e11d48" stroke-width="2"/>
+    <path d="M 1178 354 L 1178 370 L 1162 370" fill="none" stroke="#e11d48" stroke-width="2"/>
+  </g>
+
+  <rect x="6" y="6" width="1188" height="378" rx="20" fill="none" stroke="url(#borderGradL)" stroke-width="2"/>
+</svg>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 210" width="1160" height="210" role="img" aria-labelledby="mktCardTitlePt">
+  <title id="mktCardTitlePt">Marketfy — SaaS Multi-Tenant de Mercados &amp; PDV Offline-First</title>
+  <defs>
+    <style><![CDATA[
+      .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    ]]></style>
+    <linearGradient id="mktBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0406"/>
+      <stop offset="55%" stop-color="#14070c"/>
+      <stop offset="100%" stop-color="#230912"/>
+    </linearGradient>
+    <radialGradient id="mktGlow" cx="84%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#ff1f3d" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#0a0406" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="4" y="4" width="1152" height="202" rx="16" fill="url(#mktBg)" stroke="#ff1f3d" stroke-opacity="0.65" stroke-width="1.6"/>
+  <rect x="4" y="4" width="1152" height="202" rx="16" fill="url(#mktGlow)"/>
+
+  <rect x="34" y="26" width="142" height="24" rx="12" fill="#280a14" stroke="#ff1f3d" stroke-width="1"/>
+  <circle cx="49" cy="38" r="3.8" fill="#ff1f3d">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="60" y="42" class="mono" font-size="10.5" font-weight="700" fill="#ffe4e6" letter-spacing="1">DESTAQUE #03</text>
+
+  <rect x="186" y="26" width="296" height="24" rx="12" fill="#1d0d14" stroke="#fb7185" stroke-opacity="0.65" stroke-width="1"/>
+  <text x="334" y="42" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#fecdd3" letter-spacing="0.6">UI PÚBLICA · 🔒 BACKEND PRIVADO</text>
+
+  <text x="34" y="96" class="sans" font-size="36" font-weight="800" fill="#ffffff" letter-spacing="-0.6">MARKETFY</text>
+  <text x="234" y="95" class="mono" font-size="14" font-weight="600" fill="#ff1f3d">// ERP MULTI-TENANT &amp; PDV OFFLINE-FIRST</text>
+
+  <text x="34" y="128" class="sans" font-size="14" fill="#e2cbd1">Frente de caixa offline resiliente (IndexedDB/Dexie) com sync em background, emissão fiscal NFC-e própria,</text>
+  <text x="34" y="150" class="sans" font-size="14" fill="#e2cbd1">QR Code Pix dinâmico via Mercado Pago com status SSE em tempo real, conciliação, fiado &amp; funis A/B.</text>
+
+  <g transform="translate(34, 166)" class="mono" font-size="10.5" fill="#fda4af">
+    <text x="0" y="15">[FASTAPI · ASYNCPG · REDIS · ARQ · S3]</text>
+    <text x="272" y="15">[PDV OFFLINE DEXIE · PIX MERCADO PAGO SSE]</text>
+    <text x="562" y="15">[NFC-E FISCAL · PANDAS / FPDF2]</text>
+  </g>
+
+  <g transform="translate(840, 28)">
+    <rect x="0" y="0" width="286" height="154" rx="12" fill="#0d0407" stroke="#881337" stroke-width="1.2"/>
+    <text x="16" y="22" class="mono" font-size="9.5" fill="#fb7185" letter-spacing="1.2">SYNC_OFFLINE // PIX QR SSE</text>
+
+    <g transform="translate(20, 38)">
+      <rect x="0" y="0" width="76" height="76" rx="8" fill="#1a070e" stroke="#ff1f3d" stroke-width="1.4"/>
+      <rect x="10" y="10" width="18" height="18" rx="2" fill="none" stroke="#fff1f2" stroke-width="2"/>
+      <rect x="15" y="15" width="8" height="8" fill="#ff1f3d"/>
+      <rect x="48" y="10" width="18" height="18" rx="2" fill="none" stroke="#fff1f2" stroke-width="2"/>
+      <rect x="53" y="15" width="8" height="8" fill="#ff1f3d"/>
+      <rect x="10" y="48" width="18" height="18" rx="2" fill="none" stroke="#fff1f2" stroke-width="2"/>
+      <rect x="15" y="53" width="8" height="8" fill="#ff1f3d"/>
+      <rect x="35" y="35" width="9" height="9" fill="#fff1f2">
+        <animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="50" y="48" width="7" height="7" fill="#fb7185"/>
+      <rect x="60" y="58" width="7" height="7" fill="#ff1f3d"/>
+      <rect x="48" y="60" width="7" height="7" fill="#fff1f2"/>
+      <rect x="6" y="12" width="64" height="2" fill="#ff1f3d" opacity="0.85">
+        <animate attributeName="y" values="10;64;10" dur="2.6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <text x="58" y="132" text-anchor="middle" class="mono" font-size="8.5" fill="#fda4af">PIX TEMPO REAL</text>
+
+    <g transform="translate(114, 38)">
+      <rect x="0" y="0" width="154" height="28" rx="6" fill="#1b0810" stroke="#be123c" stroke-width="1"/>
+      <text x="77" y="18" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" fill="#ffe4e6">📴 SYNC DEXIE ATIVO</text>
+
+      <rect x="0" y="36" width="154" height="28" rx="6" fill="#1b0810" stroke="#be123c" stroke-width="1"/>
+      <text x="77" y="54" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" fill="#ffe4e6">🧾 NFC-E APROVADA</text>
+
+      <rect x="0" y="72" width="154" height="28" rx="6" fill="#1b0810" stroke="#ff1f3d" stroke-width="1"/>
+      <text x="77" y="90" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" fill="#fda4af">⚡ WEBHOOK SSE OK</text>
+    </g>
+  </g>
+</svg>

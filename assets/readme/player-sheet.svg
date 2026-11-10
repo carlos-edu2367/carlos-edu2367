@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-labelledby="sheetTitle sheetDesc">
+  <title id="sheetTitle">Operator Character Sheet — Carlos Eduardo da Silva</title>
+  <desc id="sheetDesc">Player profile card summarizing engineering class, specialization, focus areas, and active architectural traits.</desc>
+  <defs>
+    <style><![CDATA[
+      .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      @keyframes hexSpin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes shimmerMove {
+        0% { transform: translateX(-220px); }
+        100% { transform: translateX(720px); }
+      }
+      .hex-ring { transform-origin: 96px 104px; animation: hexSpin 24s linear infinite; }
+      .bar-shimmer { animation: shimmerMove 3.8s ease-in-out infinite; }
+    ]]></style>
+
+    <linearGradient id="sheetBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090406"/>
+      <stop offset="55%" stop-color="#11070b"/>
+      <stop offset="100%" stop-color="#18090f"/>
+    </linearGradient>
+
+    <linearGradient id="panelBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#16080e"/>
+      <stop offset="100%" stop-color="#0d0508"/>
+    </linearGradient>
+
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9f1239"/>
+      <stop offset="55%" stop-color="#e11d48"/>
+      <stop offset="100%" stop-color="#ff1f3d"/>
+    </linearGradient>
+
+    <linearGradient id="shimmerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#fff1f2" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="sheetBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff1f3d" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#881337" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ff1f3d" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <clipPath id="bar1Clip"><rect x="478" y="108" width="642" height="10" rx="5"/></clipPath>
+    <clipPath id="bar2Clip"><rect x="478" y="166" width="618" height="10" rx="5"/></clipPath>
+    <clipPath id="bar3Clip"><rect x="478" y="224" width="630" height="10" rx="5"/></clipPath>
+    <clipPath id="bar4Clip"><rect x="478" y="282" width="598" height="10" rx="5"/></clipPath>
+    <clipPath id="bar5Clip"><rect x="478" y="340" width="608" height="10" rx="5"/></clipPath>
+  </defs>
+
+  <!-- Main Console Chassis -->
+  <rect x="6" y="6" width="1188" height="428" rx="18" fill="url(#sheetBg)" stroke="url(#sheetBorder)" stroke-width="1.8"/>
+
+  <!-- Top Header Strip -->
+  <rect x="6" y="6" width="1188" height="40" rx="18" fill="#1b0910" opacity="0.75"/>
+  <line x1="6" y1="46" x2="1194" y2="46" stroke="#ff1f3d" stroke-opacity="0.28" stroke-width="1"/>
+  <circle cx="28" cy="26" r="4.5" fill="#ff1f3d"/>
+  <circle cx="44" cy="26" r="4.5" fill="#be123c"/>
+  <circle cx="60" cy="26" r="4.5" fill="#4c0519"/>
+  <text x="82" y="30" class="mono" font-size="11.5" font-weight="700" fill="#ffe4e6" letter-spacing="2">CHARACTER_SHEET // OPERATOR DOSSIER</text>
+  <text x="1170" y="30" text-anchor="end" class="mono" font-size="11" fill="#fda4af" letter-spacing="1.5">BUILD: PRODUCTION-FIRST</text>
+
+  <!-- Left Panel: Identity Card -->
+  <rect x="26" y="62" width="398" height="352" rx="14" fill="url(#panelBg)" stroke="#881337" stroke-opacity="0.55" stroke-width="1.2"/>
+
+  <!-- Sigil Emblem -->
+  <g class="hex-ring">
+    <circle cx="96" cy="104" r="30" fill="none" stroke="#ff1f3d" stroke-width="1.4" stroke-dasharray="10 6"/>
+  </g>
+  <polygon points="96,80 117,92 117,116 96,128 75,116 75,92" fill="#230a12" stroke="#ff1f3d" stroke-width="1.6"/>
+  <text x="96" y="108.5" text-anchor="middle" class="mono" font-size="13" font-weight="800" fill="#fff1f2">CE</text>
+
+  <text x="142" y="96" class="sans" font-size="19" font-weight="800" fill="#ffffff">Carlos Eduardo</text>
+  <text x="142" y="116" class="mono" font-size="11.5" font-weight="600" fill="#ff1f3d" letter-spacing="0.8">CLASS: FULL-STACK ENGINEER</text>
+  <text x="142" y="133" class="mono" font-size="10.5" fill="#fda4af">Backend · SaaS · AI Agents</text>
+
+  <line x1="46" y1="152" x2="404" y2="152" stroke="#881337" stroke-opacity="0.4" stroke-width="1"/>
+
+  <!-- Dossier Key-Value Rows -->
+  <g class="sans" font-size="12.5">
+    <text x="46" y="178" class="mono" font-size="10.5" fill="#fb7185" letter-spacing="1">REALM / BASE</text>
+    <text x="46" y="196" fill="#fff1f2" font-weight="600">Goiânia, GO — Brazil (UTC-3)</text>
+
+    <text x="46" y="224" class="mono" font-size="10.5" fill="#fb7185" letter-spacing="1">ACADEMY QUEST</text>
+    <text x="46" y="242" fill="#fff1f2" font-weight="600">Systems Analysis &amp; Dev (ADS · 2026)</text>
+
+    <text x="46" y="270" class="mono" font-size="10.5" fill="#fb7185" letter-spacing="1">FIELD DEPLOYMENT</text>
+    <text x="46" y="288" fill="#e2cbd1">Internal automation systems for Arcaika</text>
+    <text x="46" y="305" fill="#e2cbd1">Engenharia (Backend, Portal &amp; Android APK)</text>
+
+    <text x="46" y="333" class="mono" font-size="10.5" fill="#fb7185" letter-spacing="1">LANGUAGES</text>
+    <text x="46" y="351" fill="#fff1f2" font-weight="600">Portuguese (Native) · English (B2)</text>
+  </g>
+
+  <!-- Freelance Status Footer inside Left Panel -->
+  <rect x="46" y="368" width="358" height="32" rx="8" fill="#240911" stroke="#ff1f3d" stroke-opacity="0.6" stroke-width="1"/>
+  <circle cx="64" cy="384" r="4.2" fill="#ff1f3d">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="78" y="388" class="mono" font-size="11" font-weight="700" fill="#ffe4e6" letter-spacing="0.8">STATUS: OPEN FOR FREELANCE CONTRACTS</text>
+
+  <!-- Right Panel: Domain Mastery & Active Traits -->
+  <rect x="444" y="62" width="730" height="352" rx="14" fill="url(#panelBg)" stroke="#881337" stroke-opacity="0.55" stroke-width="1.2"/>
+  <text x="478" y="88" class="mono" font-size="11" font-weight="700" fill="#fda4af" letter-spacing="1.6">SPECIALIZATION MATRIX // CORE ENGINEERING DOMAINS</text>
+
+  <!-- Bar 1 -->
+  <text x="478" y="102" class="sans" font-size="12.5" font-weight="700" fill="#ffffff">Backend &amp; Async Distributed Engines</text>
+  <text x="1140" y="102" text-anchor="end" class="mono" font-size="10.5" fill="#fda4af">FastAPI · SQLAlchemy 2 · Redis · ARQ · SSE</text>
+  <rect x="478" y="108" width="662" height="10" rx="5" fill="#220b12"/>
+  <rect x="478" y="108" width="642" height="10" rx="5" fill="url(#barGrad)"/>
+  <g clip-path="url(#bar1Clip)">
+    <rect class="bar-shimmer" x="478" y="108" width="160" height="10" fill="url(#shimmerGrad)"/>
+  </g>
+
+  <!-- Bar 2 -->
+  <text x="478" y="160" class="sans" font-size="12.5" font-weight="700" fill="#ffffff">Multi-Tenant SaaS, Billing &amp; Fiscal Systems</text>
+  <text x="1140" y="160" text-anchor="end" class="mono" font-size="10.5" fill="#fda4af">Stripe · Pix QR · Idempotency · NFC-e</text>
+  <rect x="478" y="166" width="662" height="10" rx="5" fill="#220b12"/>
+  <rect x="478" y="166" width="618" height="10" rx="5" fill="url(#barGrad)"/>
+  <g clip-path="url(#bar2Clip)">
+    <rect class="bar-shimmer" x="478" y="166" width="160" height="10" fill="url(#shimmerGrad)"/>
+  </g>
+
+  <!-- Bar 3 -->
+  <text x="478" y="218" class="sans" font-size="12.5" font-weight="700" fill="#ffffff">Local-First AI Agents, Voice &amp; MCP</text>
+  <text x="1140" y="218" text-anchor="end" class="mono" font-size="10.5" fill="#fda4af">Agent Trees · Realtime Voice · RAG · SQLite</text>
+  <rect x="478" y="224" width="662" height="10" rx="5" fill="#220b12"/>
+  <rect x="478" y="224" width="630" height="10" rx="5" fill="url(#barGrad)"/>
+  <g clip-path="url(#bar3Clip)">
+    <rect class="bar-shimmer" x="478" y="224" width="160" height="10" fill="url(#shimmerGrad)"/>
+  </g>
+
+  <!-- Bar 4 -->
+  <text x="478" y="276" class="sans" font-size="12.5" font-weight="700" fill="#ffffff">Modern Frontend, 3D Web &amp; Offline-First POS</text>
+  <text x="1140" y="276" text-anchor="end" class="mono" font-size="10.5" fill="#fda4af">React 19 · TS · Electron · R3F · Dexie</text>
+  <rect x="478" y="282" width="662" height="10" rx="5" fill="#220b12"/>
+  <rect x="478" y="282" width="598" height="10" rx="5" fill="url(#barGrad)"/>
+  <g clip-path="url(#bar4Clip)">
+    <rect class="bar-shimmer" x="478" y="282" width="160" height="10" fill="url(#shimmerGrad)"/>
+  </g>
+
+  <!-- Bar 5 -->
+  <text x="478" y="334" class="sans" font-size="12.5" font-weight="700" fill="#ffffff">Clean Architecture, Quality Gates &amp; VPS Ops</text>
+  <text x="1140" y="334" text-anchor="end" class="mono" font-size="10.5" fill="#fda4af">DDD · Docker · Caddy · Pytest · Playwright</text>
+  <rect x="478" y="340" width="662" height="10" rx="5" fill="#220b12"/>
+  <rect x="478" y="340" width="608" height="10" rx="5" fill="url(#barGrad)"/>
+  <g clip-path="url(#bar5Clip)">
+    <rect class="bar-shimmer" x="478" y="340" width="160" height="10" fill="url(#shimmerGrad)"/>
+  </g>
+
+  <!-- Active Perks / Passive Buffs -->
+  <g transform="translate(478, 368)">
+    <rect x="0" y="0" width="124" height="28" rx="6" fill="#1e0911" stroke="#be123c" stroke-width="1"/>
+    <text x="62" y="18" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#ffe4e6">⚡ ASYNC-FIRST</text>
+
+    <rect x="134" y="0" width="132" height="28" rx="6" fill="#1e0911" stroke="#be123c" stroke-width="1"/>
+    <text x="200" y="18" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#ffe4e6">🛡️ IDEMPOTENT</text>
+
+    <rect x="276" y="0" width="132" height="28" rx="6" fill="#1e0911" stroke="#be123c" stroke-width="1"/>
+    <text x="342" y="18" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#ffe4e6">📴 OFFLINE-READY</text>
+
+    <rect x="418" y="0" width="124" height="28" rx="6" fill="#1e0911" stroke="#be123c" stroke-width="1"/>
+    <text x="480" y="18" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#ffe4e6">🧠 LOCAL-FIRST</text>
+
+    <rect x="552" y="0" width="110" height="28" rx="6" fill="#1e0911" stroke="#be123c" stroke-width="1"/>
+    <text x="607" y="18" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#ffe4e6">📐 STRICT DDD</text>
+  </g>
+</svg>

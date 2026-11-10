@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 36" width="1200" height="36" role="img" aria-labelledby="divTitleLight">
+  <title id="divTitleLight">Section Divider</title>
+  <defs>
+    <linearGradient id="lineGradL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#fecdd3" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#e11d48" stop-opacity="1"/>
+      <stop offset="82%" stop-color="#fecdd3" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pulseBeamL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e11d48" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#be123c" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#e11d48" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <line x1="40" y1="18" x2="1160" y2="18" stroke="url(#lineGradL)" stroke-width="1.5"/>
+
+  <rect x="-180" y="16.5" width="180" height="3" rx="1.5" fill="url(#pulseBeamL)">
+    <animate attributeName="x" from="-180" to="1220" dur="4.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <g transform="translate(600, 18)">
+    <polygon points="0,-8 10,0 0,8 -10,0" fill="#fff1f2" stroke="#e11d48" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="2.8" fill="#e11d48">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="-28" y1="-5" x2="-18" y2="-5" stroke="#be123c" stroke-width="1.2" opacity="0.7"/>
+    <line x1="-28" y1="5" x2="-18" y2="5" stroke="#be123c" stroke-width="1.2" opacity="0.7"/>
+    <line x1="18" y1="-5" x2="28" y2="-5" stroke="#be123c" stroke-width="1.2" opacity="0.7"/>
+    <line x1="18" y1="5" x2="28" y2="5" stroke="#be123c" stroke-width="1.2" opacity="0.7"/>
+  </g>
+
+  <circle cx="220" cy="18" r="2" fill="#e11d48" opacity="0.65"/>
+  <circle cx="980" cy="18" r="2" fill="#e11d48" opacity="0.65"/>
+</svg>

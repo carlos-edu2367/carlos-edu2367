@@ -1,0 +1,257 @@
+import type { Dictionary } from './en';
+import { projectsPtBR } from './projects.pt-BR';
+
+export const ptBR: Dictionary = {
+  skipLink: 'Pular para o conteúdo principal',
+  boot: {
+    systemTag: 'CE-OS // KERNEL v2.6',
+    initializing: 'INICIALIZANDO RUNTIME NEURAL & SAAS...',
+    steps: [
+      'Montando motor assíncrono FastAPI & SQLite local...',
+      'Calibrando shaders carmesim & telemetria 3D...',
+      'Sincronizando canais multiagente MCP...',
+    ],
+    ready: 'SISTEMA PRONTO',
+    pressStart: 'PRESSIONE START / CLIQUE OU TECLE PARA ENTRAR',
+    skip: 'Pular Intro [ESC]',
+  },
+  nav: {
+    hero: 'Início',
+    about: 'Operador',
+    projects: 'Sistemas',
+    stack: 'Arsenal',
+    contact: 'Contratar',
+    openPalette: 'Paleta de Comandos',
+  },
+  hud: {
+    levelPrefix: 'NVL',
+    xpSuffix: 'XP',
+    soundOn: 'SFX ON',
+    soundOff: 'SEM ÁUDIO',
+    toggleSoundAria: 'Alternar efeitos sonoros da interface',
+    switchLangAria: 'Alternar idioma do site',
+    availableBadge: 'DISPONÍVEL PARA FREELANCE',
+    cmdHint: '⌘K',
+  },
+  hero: {
+    eyebrow: 'GOIÂNIA, BRASIL (UTC-3) · DISPONÍVEL PARA FREELANCE',
+    role: 'Engenheiro de Software Full-Stack',
+    domains: 'Backend · SaaS Multi-Tenant · Sistemas de Agentes de IA Local-First',
+    headlineLine1: 'ARQUITETANDO',
+    headlineAccent: 'SISTEMAS',
+    headlineLine2: 'DE IMPACTO REAL.',
+    description:
+      'Construo backends robustos, produtos SaaS multi-tenant, fluxos resilientes de pagamento e emissão fiscal, e workspaces local-first de agentes de IA — entregues ponta a ponta do domínio à interface.',
+    primaryCta: 'Iniciar Projeto',
+    secondaryCta: 'Explorar Flagships',
+    scrollHint: 'ROLE PARA INSPECIONAR',
+    portraitCaption: 'OPERADOR // CARLOS EDUARDO DA SILVA',
+    webglFallback: 'Núcleo 3D operando em modo leve de telemetria',
+  },
+  about: {
+    eyebrow: '// 01 · DOSSIÊ DO OPERADOR & FICHA TÉCNICA',
+    title: 'Projetado para Complexidade Real',
+    lead: 'Engenheiro de Software Full-Stack focado em Clean Architecture, Domain-Driven Design, Python assíncrono e interfaces refinadas em React e Electron.',
+    bio: 'Conduzo produtos do repositório vazio até a produção em Linux VPS. Anteriormente construí sistemas internos de automação de processos para a Arcaika Engenharia — entregando backend e frontend web de gestão de solicitações, portal dedicado do cliente e APK Android para operação.',
+    stats: {
+      classLabel: 'CLASSE',
+      classValue: 'Engenheiro de Sistemas Full-Stack',
+      baseLabel: 'BASE',
+      baseValue: 'Goiânia, GO — Brasil (UTC-3)',
+      degreeLabel: 'FORMAÇÃO',
+      degreeValue: 'Análise e Desenvolvimento de Sistemas (2026)',
+      langLabel: 'IDIOMAS',
+      langValue: 'Português (Nativo) · Inglês (B2)',
+      statusLabel: 'STATUS',
+      statusValue: 'Disponível para Freelance & Contratos',
+      specLabel: 'ESPECIALIZAÇÃO',
+      specValue: 'Backend · SaaS Multi-Tenant · Agentes de IA',
+    },
+    attributesTitle: 'ATRIBUTOS DO OPERADOR',
+    attributesNote: 'Autoavaliação qualitativa',
+    attributes: [
+      { label: 'Backend & Sistemas Assíncronos', code: 'BCK', tier: 'CORE', fill: 94 },
+      { label: 'Agentes de IA & Runtime MCP', code: 'AGT', tier: 'CORE', fill: 92 },
+      { label: 'Frontend, Motion & 3D', code: 'UIX', tier: 'ALTO', fill: 88 },
+      { label: 'Produto & Refinamento UX', code: 'PRD', tier: 'ALTO', fill: 87 },
+      { label: 'DevOps & VPS Linux', code: 'OPS', tier: 'SÓLIDO', fill: 85 },
+    ],
+    perksTitle: 'TRAITS & PERKS EQUIPADOS',
+    perks: [
+      'Clean Architecture / DDD',
+      'Sincronização Offline-First',
+      'Pagamentos Idempotentes',
+      'IA Local-First',
+      'Python 3.13 Assíncrono',
+      'Voz em Tempo Real & SSE',
+      'SaaS Multi-Tenant',
+      'VPS Linux + Auto-TLS',
+    ],
+    questsTitle: 'QUESTS CONCLUÍDAS // REGISTRO DE CAMPO',
+    quests: [
+      {
+        code: 'QST-01',
+        tag: 'AUTOMAÇÃO DE PROCESSOS',
+        title: 'Suíte Interna Arcaika Engenharia',
+        detail:
+          'Desenvolveu backend e plataforma web de gestão de solicitações, portal do cliente e APK Android de operação.',
+      },
+      {
+        code: 'QST-02',
+        tag: 'VAREJO MULTI-TENANT',
+        title: 'Marketfy PDV Offline & Motor Fiscal',
+        detail:
+          'Entregou caixa offline IndexedDB, emissão automatizada de NFC-e e Pix dinâmico Mercado Pago via SSE.',
+      },
+      {
+        code: 'QST-03',
+        tag: 'MONOREPO SAAS DDD',
+        title: 'Plataforma Gamificada Auryly',
+        detail:
+          'Arquitetou backend Python 3.12 em Clean Architecture, trilhas guiadas, funis, assinaturas Stripe e analytics DuckDB.',
+      },
+      {
+        code: 'QST-04',
+        tag: 'IA LOCAL-FIRST',
+        title: 'Workspace Multiagente Orin (v0.12.8)',
+        detail:
+          'Unificou Web, Electron 37 e CLI sobre um único motor SQLite com voz PT-BR em tempo real e árvores de agentes.',
+      },
+    ],
+    pillarsTitle: 'DOUTRINA ARQUITETURAL',
+    pillars: [
+      {
+        title: 'Clean Architecture & Backend Assíncrono',
+        detail: 'FastAPI, SQLAlchemy 2 async, Pydantic v2, workers Redis/ARQ e fronteiras claras de DDD.',
+      },
+      {
+        title: 'SaaS Multi-Tenant & Pagamentos',
+        detail: 'Cobrança idempotente Stripe e Mercado Pago, Pix dinâmico via SSE e emissão automatizada de NFC-e.',
+      },
+      {
+        title: 'IA Local-First & Desktop',
+        detail: 'Árvores multiagente, servidores MCP, companions de voz em tempo real, RAG local e Electron + SQLite.',
+      },
+      {
+        title: 'Offline-First & Cultura DevOps',
+        detail: 'Sincronização IndexedDB/Dexie, Docker Compose, Caddy auto-TLS em VPS Linux e CI com testcontainers.',
+      },
+    ],
+  },
+  projects: projectsPtBR,
+  stack: {
+    eyebrow: '// 03 · ARSENAL EQUIPADO',
+    title: 'Stack Testada em Produção',
+    subtitle:
+      'Ferramentas escolhidas por confiabilidade, tipagem forte e clareza operacional no backend, web, desktop e infraestrutura.',
+    categories: {
+      languages: 'Linguagens',
+      backend: 'Backend & Billing',
+      frontend: 'Frontend & 3D',
+      desktopAi: 'Desktop & Agentes de IA',
+      data: 'Dados & Storage',
+      devops: 'Infra & DevOps',
+      quality: 'Testes & Qualidade',
+    },
+    allFilter: 'Todos os Domínios',
+    constellationHint: 'ARRASTE PARA ORBITAR · PASSE O CURSOR · CLIQUE NO DOMÍNIO',
+    fallbackNote: 'Constelação Tática 2D Ativa',
+    nodesLabel: 'TECNOLOGIAS MAPEADAS',
+    domainsLabel: 'DOMÍNIOS ATIVOS',
+    matrixTitle: 'ESPECIFICAÇÃO COMPLETA DO ARSENAL',
+  },
+  contact: {
+    eyebrow: '// 04 · CANAL DIRETO',
+    title: 'Precisa de um Engenheiro que Entrega a Stack Inteira?',
+    kineticHeadline: 'Vamos construir algo que faça as pessoas dizerem uau.',
+    subtitle:
+      'Disponível para projetos freelance, MVPs de SaaS, arquitetura backend, integrações de pagamento e sistemas de agentes de IA sob medida. Comunicação direta e código pronto para produção.',
+    copyEmail: 'Copiar E-mail',
+    copiedEmail: 'Copiado para a Área de Transferência!',
+    sendEmail: 'Enviar E-mail Direto',
+    githubLabel: 'Perfil no GitHub',
+    linkedinLabel: 'Perfil no LinkedIn',
+    responseNote: 'Fuso UTC-3 · Comunicação assíncrona ágil em Português ou Inglês (B2).',
+    availabilityLabel: 'DISPONIBILIDADE',
+    availabilityValue: 'Aberto para Freelance & Contratos',
+    timezoneLabel: 'BASE & FUSO HORÁRIO',
+    commsLabel: 'COMUNICAÇÃO ASSÍNCRONA',
+    commsValue: 'Português (Nativo) · Inglês (B2)',
+  },
+  footer: {
+    crafted: 'Projetado e desenvolvido por Carlos Eduardo da Silva.',
+    rights: 'Todos os sistemas operacionais.',
+    localTimeLabel: 'HORÁRIO LOCAL · GOIÂNIA',
+    sectorsLabel: 'SETORES',
+    konamiHint: 'Dica: tente ↑ ↑ ↓ ↓ ← → ← → B A',
+    backToTop: 'Voltar ao Topo ↑',
+  },
+  palette: {
+    placeholder: 'Digite um comando ou pule para uma seção...',
+    empty: 'Nenhum comando correspondente encontrado.',
+    closeEsc: 'ESC para fechar',
+    groups: {
+      navigation: 'Navegação',
+      actions: 'Ações do Sistema',
+      links: 'Links Externos',
+    },
+    commands: {
+      goHero: 'Ir para o Topo / Hero',
+      goAbout: 'Ir para a Ficha do Operador',
+      goProjects: 'Ir para os Sistemas Flagship',
+      goStack: 'Ir para o Arsenal de Tecnologias',
+      goContact: 'Ir para Contato / Contratar',
+      switchLang: 'Alternar Idioma (EN ↔ PT-BR)',
+      toggleSound: 'Alternar Efeitos Sonoros',
+      copyEmail: 'Copiar E-mail (contato.carlosedu2367@gmail.com)',
+      openGithub: 'Abrir GitHub (@carlos-edu2367)',
+      openLinkedin: 'Abrir LinkedIn',
+    },
+  },
+  achievements: {
+    unlockedHeader: 'CONQUISTA DESBLOQUEADA',
+    items: {
+      boot: {
+        title: 'Sistema Online',
+        description: 'Inicializou o runtime do portfólio.',
+      },
+      explorer: {
+        title: 'Reconhecimento Completo',
+        description: 'Visitou todos os setores do portfólio.',
+      },
+      polyglot: {
+        title: 'Comunicação Bilíngue',
+        description: 'Alternou o idioma entre EN e PT-BR.',
+      },
+      curious: {
+        title: 'Inspetor Técnico',
+        description: 'Abriu um dossiê técnico de arquitetura.',
+      },
+      collector: {
+        title: 'Arquivista de Flagships',
+        description: 'Inspecionou as três arquiteturas principais.',
+      },
+      konami: {
+        title: 'Sobrecarga Carmesim',
+        description: 'Inseriu a clássica sequência Konami.',
+      },
+      sound: {
+        title: 'Telemetria Sonora',
+        description: 'Ativou os efeitos sintetizados em WebAudio.',
+      },
+      palette: {
+        title: 'Operador Avançado',
+        description: 'Abriu a Paleta de Comandos.',
+      },
+      contact: {
+        title: 'Sinal Estabelecido',
+        description: 'Copiou o e-mail direto de Carlos Eduardo.',
+      },
+    },
+  },
+  toasts: {
+    emailCopied: 'E-mail copiado para a área de transferência',
+    langSwitched: 'Idioma alterado para Português (BR)',
+    konamiActivated: 'SOBRECARGA CARMESIM ATIVADA (+100 XP)',
+  },
+};

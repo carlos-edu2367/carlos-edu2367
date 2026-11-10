@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 210" width="1160" height="210" role="img" aria-labelledby="orinCardTitle">
+  <title id="orinCardTitle">Orin — Local-First AI Agent Workspace</title>
+  <defs>
+    <style><![CDATA[
+      .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    ]]></style>
+    <linearGradient id="orinBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0406"/>
+      <stop offset="55%" stop-color="#14070c"/>
+      <stop offset="100%" stop-color="#220912"/>
+    </linearGradient>
+    <radialGradient id="orinGlow" cx="84%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#ff1f3d" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#0a0406" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="4" y="4" width="1152" height="202" rx="16" fill="url(#orinBg)" stroke="#ff1f3d" stroke-opacity="0.65" stroke-width="1.6"/>
+  <rect x="4" y="4" width="1152" height="202" rx="16" fill="url(#orinGlow)"/>
+
+  <!-- Top Badges -->
+  <rect x="34" y="26" width="142" height="24" rx="12" fill="#280a14" stroke="#ff1f3d" stroke-width="1"/>
+  <circle cx="49" cy="38" r="3.8" fill="#ff1f3d">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="60" y="42" class="mono" font-size="10.5" font-weight="700" fill="#ffe4e6" letter-spacing="1">FLAGSHIP #01</text>
+
+  <rect x="186" y="26" width="198" height="24" rx="12" fill="#0d1f17" stroke="#10b981" stroke-opacity="0.65" stroke-width="1"/>
+  <text x="285" y="42" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#a7f3d0" letter-spacing="0.8">PUBLIC · v0.12.8 · MIT</text>
+
+  <!-- Title & Subtitle -->
+  <text x="34" y="96" class="sans" font-size="36" font-weight="800" fill="#ffffff" letter-spacing="-0.6">ORIN</text>
+  <text x="140" y="95" class="mono" font-size="14" font-weight="600" fill="#ff1f3d">// LOCAL-FIRST AI AGENT WORKSPACE</text>
+
+  <text x="34" y="128" class="sans" font-size="14" fill="#e2cbd1">Unified durable engine powering Web UI, Electron 37 Desktop &amp; the <tspan class="mono" fill="#fda4af">orin code</tspan> engineering CLI.</text>
+  <text x="34" y="150" class="sans" font-size="14" fill="#e2cbd1">Realtime PT-BR voice companion, specialist multi-agent trees, MCP, plugins, local RAG &amp; Time Machine.</text>
+
+  <!-- Bottom Architecture Tags -->
+  <g transform="translate(34, 166)" class="mono" font-size="10.5" fill="#fda4af">
+    <text x="0" y="15">[PYTHON 3.13 · FASTAPI · SQLITE]</text>
+    <text x="232" y="15">[REACT 19 · R3F / THREE.JS · VITE 8]</text>
+    <text x="488" y="15">[ELECTRON 37 · CLAUDE / CODEX / ANTIGRAVITY]</text>
+  </g>
+
+  <!-- Right Visual: Multi-Agent Tree + Voice Waveform -->
+  <g transform="translate(840, 28)">
+    <rect x="0" y="0" width="286" height="154" rx="12" fill="#0d0407" stroke="#881337" stroke-width="1.2"/>
+    <text x="16" y="22" class="mono" font-size="9.5" fill="#fb7185" letter-spacing="1.2">AGENT_TREE // LIVE VOICE</text>
+
+    <!-- Tree Edges -->
+    <line x1="92" y1="52" x2="42" y2="98" stroke="#e11d48" stroke-width="1.4" stroke-dasharray="4 3"/>
+    <line x1="92" y1="52" x2="92" y2="98" stroke="#ff1f3d" stroke-width="1.4"/>
+    <line x1="92" y1="52" x2="142" y2="98" stroke="#e11d48" stroke-width="1.4" stroke-dasharray="4 3"/>
+
+    <!-- Root Node -->
+    <circle cx="92" cy="52" r="13" fill="#2b0a15" stroke="#ff1f3d" stroke-width="1.8"/>
+    <circle cx="92" cy="52" r="4.5" fill="#fff1f2">
+      <animate attributeName="r" values="3.5;6;3.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Specialist Sub-Agents -->
+    <circle cx="42" cy="102" r="10" fill="#1c0810" stroke="#fb7185" stroke-width="1.4"/>
+    <text x="42" y="125" text-anchor="middle" class="mono" font-size="8.5" fill="#fda4af">CLAUDE</text>
+
+    <circle cx="92" cy="102" r="10" fill="#1c0810" stroke="#ff1f3d" stroke-width="1.4"/>
+    <text x="92" y="125" text-anchor="middle" class="mono" font-size="8.5" fill="#fda4af">CODEX</text>
+
+    <circle cx="142" cy="102" r="10" fill="#1c0810" stroke="#fb7185" stroke-width="1.4"/>
+    <text x="142" y="125" text-anchor="middle" class="mono" font-size="8.5" fill="#fda4af">RAG/MCP</text>
+
+    <!-- Realtime Voice Waveform Panel -->
+    <line x1="180" y1="34" x2="180" y2="136" stroke="#4c0519" stroke-width="1"/>
+    <text x="232" y="48" text-anchor="middle" class="mono" font-size="9" font-weight="700" fill="#ff1f3d">WAKE: "ORIN"</text>
+    <g transform="translate(198, 66)">
+      <rect x="0" y="12" width="5" height="20" rx="2.5" fill="#ff1f3d">
+        <animate attributeName="height" values="10;36;14;28;10" dur="1.2s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="19;6;17;10;19" dur="1.2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="11" y="6" width="5" height="32" rx="2.5" fill="#fb7185">
+        <animate attributeName="height" values="32;12;38;18;32" dur="1.0s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="8;18;5;15;8" dur="1.0s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="22" y="2" width="5" height="40" rx="2.5" fill="#fff1f2">
+        <animate attributeName="height" values="40;14;34;10;40" dur="1.3s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="4;17;7;19;4" dur="1.3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="33" y="8" width="5" height="28" rx="2.5" fill="#ff1f3d">
+        <animate attributeName="height" values="16;38;12;30;16" dur="1.1s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="16;5;18;9;16" dur="1.1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="44" y="10" width="5" height="24" rx="2.5" fill="#fb7185">
+        <animate attributeName="height" values="24;10;32;14;24" dur="1.4s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="12;19;8;17;12" dur="1.4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="55" y="14" width="5" height="16" rx="2.5" fill="#ff1f3d">
+        <animate attributeName="height" values="12;28;10;22;12" dur="1.5s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="18;10;19;13;18" dur="1.5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <text x="232" y="132" text-anchor="middle" class="mono" font-size="8.5" fill="#fda4af">PT-BR LIVE · SOUL.MD</text>
+  </g>
+</svg>
