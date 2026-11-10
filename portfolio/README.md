@@ -79,24 +79,14 @@ Asset helper scripts:
 
 ---
 
-## Deploying to GitHub Pages
+## Deploying to Vercel
 
-An automated GitHub Actions workflow is already configured at **`.github/workflows/deploy-portfolio.yml`**.
+This project is ready to deploy on **Vercel** as a static Vite application:
 
-### How it works
-1. Triggers automatically on pushes to `main` touching `portfolio/**` or `.github/workflows/deploy-portfolio.yml` (or manually via **Actions → Run workflow**).
-2. Installs dependencies (`npm ci`), runs `npm run lint` and `npm test`, and builds with:
-   ```bash
-   VITE_BASE_PATH=/carlos-edu2367/ npm run build
-   ```
-   (`vite.config.ts` reads `process.env.VITE_BASE_PATH` and sets Vite's `base`, automatically prefixing `%BASE_URL%` assets, preloaded fonts, `PORTRAIT_ASSET`, and `og-image.png`).
-3. Uploads `portfolio/dist` and deploys via `actions/deploy-pages@v4`.
-
-### One-time repository setup
-1. Open your GitHub repository **Settings → Pages**.
-2. Under **Build and deployment → Source**, select **GitHub Actions** (instead of *Deploy from a branch*).
-3. Push to `main` (or trigger **Deploy Portfolio to GitHub Pages** from the **Actions** tab). Your site will publish at `https://carlos-edu2367.github.io/carlos-edu2367/`.
-4. *(Custom domain)*: If deploying at a root domain (`/`), change `VITE_BASE_PATH` in `.github/workflows/deploy-portfolio.yml` to `/`.
+1. Import the repository into Vercel.
+2. Set **Root Directory** to `portfolio`.
+3. Vercel will auto-detect **Vite** (`Build Command`: `npm run build`, `Output Directory`: `dist`, `Install Command`: `npm install`).
+4. Deploy — assets are served from root (`/`) by default at `https://carlos-edu2367.vercel.app/`.
 
 ---
 

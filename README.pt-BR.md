@@ -29,7 +29,7 @@
   <a href="mailto:contato.carlosedu2367@gmail.com">
     <img src="https://img.shields.io/badge/Freelance-Dispon%C3%ADvel_Agora-ff1f3d?style=for-the-badge&labelColor=0a0507" alt="Disponível para Freelance" />
   </a>
-  <a href="https://carlos-edu2367.github.io/carlos-edu2367/">
+  <a href="https://carlos-edu2367.vercel.app/">
     <img src="https://img.shields.io/badge/Portf%C3%B3lio-Acessar_Site-be123c?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0a0507" alt="Site de Portfólio" />
   </a>
   <a href="https://linkedin.com/in/carloseduardo2367/">
@@ -590,7 +590,7 @@ Precisa de um engenheiro para **arquitetar um SaaS multi-tenant**, **tirar do pa
   <a href="https://linkedin.com/in/carloseduardo2367/">
     <img src="https://img.shields.io/badge/LinkedIn-Conectar_no_LinkedIn-e11d48?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0507" alt="Conectar no LinkedIn" />
   </a>
-  <a href="https://carlos-edu2367.github.io/carlos-edu2367/">
+  <a href="https://carlos-edu2367.vercel.app/">
     <img src="https://img.shields.io/badge/Portf%C3%B3lio-Vitrine_Interativa-be123c?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0a0507" alt="Vitrine Interativa de Portfólio" />
   </a>
 </p>

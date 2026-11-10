@@ -29,7 +29,7 @@
   <a href="mailto:contato.carlosedu2367@gmail.com">
     <img src="https://img.shields.io/badge/Freelance-Available_Now-ff1f3d?style=for-the-badge&labelColor=0a0507" alt="Open to Freelance" />
   </a>
-  <a href="https://carlos-edu2367.github.io/carlos-edu2367/">
+  <a href="https://carlos-edu2367.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-Visit_Site-be123c?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0a0507" alt="Portfolio Website" />
   </a>
   <a href="https://linkedin.com/in/carloseduardo2367/">
@@ -590,7 +590,7 @@ Need an engineer to **architect a multi-tenant SaaS**, **ship a resilient FastAP
   <a href="https://linkedin.com/in/carloseduardo2367/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect_on_LinkedIn-e11d48?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0507" alt="Connect on LinkedIn" />
   </a>
-  <a href="https://carlos-edu2367.github.io/carlos-edu2367/">
+  <a href="https://carlos-edu2367.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-Interactive_Showcase-be123c?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0a0507" alt="Interactive Portfolio Showcase" />
   </a>
 </p>
